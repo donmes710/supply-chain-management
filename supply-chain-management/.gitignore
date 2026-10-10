@@ -1,0 +1,55 @@
+# General
+HELP.md
+*.log
+.DS_Store
+Thumbs.db
+
+# Java / Maven
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Spring Tool Suite / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.metadata/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Node.js / React / Vite
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Nested frontend Git metadata and backup
+Front-End/supply-chain-frontend-01/supply-chain-management-new/.git/
+Front-End/supply-chain-frontend-01/supply-chain-management-new/.git-backup/
